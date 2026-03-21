@@ -124,17 +124,17 @@ The application is built on a three-layer architecture:
 Real-time messaging with read receipts, message acknowledgments, image sharing, and typing indicators. Clean, intuitive design with smooth message pagination.
 
 ### Video Calling
-![Video Call Screen](./call_show.png)
+![Video Call Screen](./assests/call_show.png)
 
 HD video calling with minimal controls. Peer-to-peer connection ensures privacy and low latency. Easy to accept, reject, or end calls.
 
 ### User Search
-![Search Dashboard](./search_dashboard.png)
+![Search Dashboard](./assests/search_dashboard.png)
 
 Find friends instantly with real-time search. Browse users with pagination support and add them to your contact list.
 
 ### User Profile
-![Profile Page](./profile_page.png)
+![Profile Page](./assests/profile_page.png)
 
 Manage your profile, view user details, and maintain your friend list with online/offline status indicators.
 
