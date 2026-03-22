@@ -4,6 +4,7 @@
 
 I built a real-time chat system with three interconnected parts that work together to handle message sending and receiving. This document explains how each part was designed and implemented.
 
+
 ## Overview
 
 The message flow consists of three main components:
@@ -342,6 +343,11 @@ Cycle repeats
 ```
 
 ---
+## Message Flow Architecture
+
+![Chat Message Flow](./chat_message_architecture_flow.svg)
+
+For detailed explanation of how the message flow is implemented, see [Chat Architecture Documentation](./MessagesFlowImplementation/CHAT_ARCHITECTURE.md)
 
 ## Common Issues and Solutions
 
