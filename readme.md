@@ -5,7 +5,7 @@ Original Privex repository with code is Private , this repositroy i created to e
 
 A modern MERN chat application with real-time messaging, audio/video calling, and secure authentication. Built with Socket.IO for real-time communication and WebRTC for peer-to-peer calling.
 
-**[Visit Live App](https://privex-1.onrender.com/login)**
+**[Visit Live App](https://privex-200i.onrender.com/)**
 
 ---
 
