@@ -1,4 +1,5 @@
 # Privex
+Original Privex repository with code is Private , this repositroy i created to explain how i am building the app , how i implemented the features in my app and more upcoming features 
 
 ## Real-Time Chat Application
 
@@ -140,22 +141,6 @@ Manage your profile, view user details, and maintain your friend list with onlin
 
 ---
 
-## Getting Started
-
-### Quick Start
-
-1. Visit [https://privex-1.onrender.com/login](https://privex-1.onrender.com/login)
-2. Create an account with email and password
-3. Search for friends to connect
-4. Start chatting or make a call
-
-### Requirements
-
-- Modern web browser (Chrome, Firefox, Safari, Edge)
-- Webcam and microphone for calling
-- Stable internet connection
-
----
 
 ## Development Roadmap
 
