@@ -34,62 +34,6 @@ Each metric is based on **50 real samples** collected during testing.
 
 Time taken from when a message is marked as "seen" by the receiver to when the sender receives acknowledgment.
 
----
-
-## Sample Data (50 Samples)
-
-read-Ack latency is 698
-read-Ack latency is 612
-read-Ack latency is 605
-read-Ack latency is 874
-read-Ack latency is 689
-read-Ack latency is 615
-read-Ack latency is 608
-read-Ack latency is 619
-read-Ack latency is 623
-read-Ack latency is 610
-read-Ack latency is 702
-read-Ack latency is 598
-read-Ack latency is 607
-read-Ack latency is 865
-read-Ack latency is 676
-read-Ack latency is 620
-read-Ack latency is 609
-read-Ack latency is 616
-read-Ack latency is 625
-read-Ack latency is 613
-read-Ack latency is 695
-read-Ack latency is 603
-read-Ack latency is 611
-read-Ack latency is 882
-read-Ack latency is 684
-read-Ack latency is 617
-read-Ack latency is 606
-read-Ack latency is 618
-read-Ack latency is 622
-read-Ack latency is 614
-read-Ack latency is 709
-read-Ack latency is 600
-read-Ack latency is 604
-read-Ack latency is 878
-read-Ack latency is 692
-read-Ack latency is 621
-read-Ack latency is 607
-read-Ack latency is 613
-read-Ack latency is 624
-read-Ack latency is 611
-read-Ack latency is 701
-read-Ack latency is 599
-read-Ack latency is 608
-read-Ack latency is 869
-read-Ack latency is 688
-read-Ack latency is 616
-read-Ack latency is 605
-read-Ack latency is 617
-read-Ack latency is 620
-read-Ack latency is 612
-
----
 
 ## Results
 
@@ -110,62 +54,6 @@ read-Ack latency is 612
 
 Time taken from sending a message to when it is delivered to the receiver.
 
----
-
-## Sample Data (50 Samples)
-
-latency in ms is 432
-latency in ms is 428
-latency in ms is 429
-latency in ms is 428
-latency in ms is 759
-latency in ms is 436
-latency in ms is 437
-latency in ms is 446
-latency in ms is 760
-latency in ms is 1058
-latency in ms is 433
-latency in ms is 429
-latency in ms is 833
-latency in ms is 433
-latency in ms is 435
-latency in ms is 427
-latency in ms is 430
-latency in ms is 431
-latency in ms is 762
-latency in ms is 438
-latency in ms is 441
-latency in ms is 445
-latency in ms is 756
-latency in ms is 1042
-latency in ms is 434
-latency in ms is 428
-latency in ms is 821
-latency in ms is 432
-latency in ms is 436
-latency in ms is 429
-latency in ms is 431
-latency in ms is 433
-latency in ms is 768
-latency in ms is 440
-latency in ms is 443
-latency in ms is 447
-latency in ms is 754
-latency in ms is 1065
-latency in ms is 435
-latency in ms is 427
-latency in ms is 828
-latency in ms is 434
-latency in ms is 437
-latency in ms is 430
-latency in ms is 432
-latency in ms is 431
-latency in ms is 770
-latency in ms is 439
-latency in ms is 442
-latency in ms is 444
-
----
 
 ## Results
 
@@ -188,62 +76,11 @@ latency in ms is 444
 
 Performance comparison between skip/limit pagination and cursor-based pagination using _id cursors for chat message retrieval.
 
----
 
-## Skip/Limit Query (50 Samples)
 
-skip/limit query ms is 112
-skip/limit query ms is 137
-skip/limit query ms is 104
-skip/limit query ms is 129
-skip/limit query ms is 118
-skip/limit query ms is 140
-skip/limit query ms is 121
-skip/limit query ms is 109
-skip/limit query ms is 133
-skip/limit query ms is 115
-skip/limit query ms is 126
-skip/limit query ms is 138
-skip/limit query ms is 102
-skip/limit query ms is 120
-skip/limit query ms is 135
-skip/limit query ms is 111
-skip/limit query ms is 124
-skip/limit query ms is 107
-skip/limit query ms is 132
-skip/limit query ms is 116
-skip/limit query ms is 139
-skip/limit query ms is 105
-skip/limit query ms is 123
-skip/limit query ms is 130
-skip/limit query ms is 117
-skip/limit query ms is 108
-skip/limit query ms is 134
-skip/limit query ms is 125
-skip/limit query ms is 119
-skip/limit query ms is 136
-skip/limit query ms is 101
-skip/limit query ms is 122
-skip/limit query ms is 128
-skip/limit query ms is 110
-skip/limit query ms is 131
-skip/limit query ms is 114
-skip/limit query ms is 127
-skip/limit query ms is 106
-skip/limit query ms is 113
-skip/limit query ms is 103
-skip/limit query ms is 137
-skip/limit query ms is 118
-skip/limit query ms is 129
-skip/limit query ms is 121
-skip/limit query ms is 140
-skip/limit query ms is 116
-skip/limit query ms is 133
-skip/limit query ms is 109
-skip/limit query ms is 126
-skip/limit query ms is 112
 
----
+
+
 
 ## Skip/Limit Results
 
@@ -256,62 +93,6 @@ skip/limit query ms is 112
 **P95 (95th Percentile):** 138 ms
 **P99 (99th Percentile):** 140 ms
 
----
-
-## Cursor-Based Query (50 Samples)
-
-cursor query in ms is 63
-cursor query in ms is 62
-cursor query in ms is 67
-cursor query in ms is 101
-cursor query in ms is 68
-cursor query in ms is 64
-cursor query in ms is 71
-cursor query in ms is 63
-cursor query in ms is 94
-cursor query in ms is 63
-cursor query in ms is 65
-cursor query in ms is 81
-cursor query in ms is 68
-cursor query in ms is 66
-cursor query in ms is 72
-cursor query in ms is 63
-cursor query in ms is 70
-cursor query in ms is 69
-cursor query in ms is 64
-cursor query in ms is 67
-cursor query in ms is 66
-cursor query in ms is 62
-cursor query in ms is 75
-cursor query in ms is 78
-cursor query in ms is 60
-cursor query in ms is 61
-cursor query in ms is 73
-cursor query in ms is 74
-cursor query in ms is 68
-cursor query in ms is 69
-cursor query in ms is 70
-cursor query in ms is 71
-cursor query in ms is 72
-cursor query in ms is 65
-cursor query in ms is 66
-cursor query in ms is 67
-cursor query in ms is 68
-cursor query in ms is 69
-cursor query in ms is 70
-cursor query in ms is 71
-cursor query in ms is 72
-cursor query in ms is 73
-cursor query in ms is 74
-cursor query in ms is 75
-cursor query in ms is 76
-cursor query in ms is 77
-cursor query in ms is 78
-cursor query in ms is 79
-cursor query in ms is 80
-cursor query in ms is 82
-
----
 
 ## Cursor-Based Results
 
