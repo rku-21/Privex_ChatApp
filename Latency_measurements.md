@@ -11,6 +11,7 @@ All captured logs and proof screenshots are stored in the `/images` folder.
 ### Sample References
 - ![Read Ack Logs](./images/read-ack-sample.png)
 - ![Delivery Logs](./images/delivery-latency-sample.png)
+- ![Database opitimization](./images/database_optimization.png)
 
 ---
 
