@@ -74,7 +74,7 @@ Time taken from sending a message to when it is delivered to the receiver.
 
 ## Description
 
-Performance comparison between skip/limit pagination and cursor-based pagination using _id cursors for chat message retrieval.
+Performance comparison between skip/limit pagination and cursor-based pagination using timestamps cursors for chat message retrieval.
 
 
 
